@@ -50,7 +50,7 @@ std(): Standard deviation
 
 Hence only those measurements which reflect mean or standard deviation are present in this dataset.
 
-##List of measurements selected (variables of the dataset) :
+## List of measurements selected (variables of the dataset) :
 
 * `tBodyAccMeanX`
 * `tBodyAccMeanY`

@@ -20,8 +20,8 @@ features[,2] <- as.character(features[,2])
 # Extract only the measurements on mean and standard deviation
 featuresSelected <- grep(".*mean.*|.*std.*", features[,2])
 featuresSelected_names <- features[featuresSelected,2]
-featuresSelected_names = gsub('-mean', 'Mean', featuresSelected_names)
-featuresSelected_names = gsub('-std', 'Std', featuresSelected_names)
+featuresSelected_names <- gsub('-mean', 'Mean', featuresSelected_names)
+featuresSelected_names <- gsub('-std', 'Std', featuresSelected_names)
 featuresSelected_names <- gsub('[-()]', '', featuresSelected_names)
 
 
